@@ -384,20 +384,20 @@ export const SejongMap: React.FC<SejongMapProps> = ({
                 >
                   {/* Number or ZoneCode Pill */}
                   <rect
-                    x={cx - 14}
-                    y={cy - 22}
-                    width="28"
-                    height="17"
-                    rx="8.5"
+                    x={cx - 16}
+                    y={cy - 29}
+                    width="32"
+                    height="19"
+                    rx="9.5"
                     fill={isSelected ? '#0f172a' : '#ffffff'}
                     stroke={isSelected ? '#0f172a' : '#334155'}
-                    strokeWidth="1"
+                    strokeWidth="1.2"
                   />
                   <text
                     x={cx}
-                    y={cy - 10}
+                    y={cy - 15.5}
                     textAnchor="middle"
-                    fontSize="10"
+                    fontSize="11.5"
                     fontWeight="800"
                     fill={isSelected ? '#ffffff' : '#0f172a'}
                   >
@@ -407,13 +407,13 @@ export const SejongMap: React.FC<SejongMapProps> = ({
                   {/* Legal Dong Name */}
                   <text
                     x={cx}
-                    y={cy + 8}
+                    y={cy + 6}
                     textAnchor="middle"
-                    fontSize="13"
+                    fontSize="17"
                     fontWeight="800"
                     fill="#0f172a"
                     stroke="#ffffff"
-                    strokeWidth="3"
+                    strokeWidth="4"
                     paintOrder="stroke"
                   >
                     {unit.legalDong}
@@ -422,13 +422,13 @@ export const SejongMap: React.FC<SejongMapProps> = ({
                   {/* Sub-label: Village or Admin Dong */}
                   <text
                     x={cx}
-                    y={cy + 22}
+                    y={cy + 23}
                     textAnchor="middle"
-                    fontSize="10"
+                    fontSize="13"
                     fontWeight="700"
                     fill={labelMode === 'admin_dong' ? '#1e293b' : '#334155'}
                     stroke="#ffffff"
-                    strokeWidth="2.5"
+                    strokeWidth="3.2"
                     paintOrder="stroke"
                   >
                     {labelMode === 'admin_dong'

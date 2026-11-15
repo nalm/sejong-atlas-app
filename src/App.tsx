@@ -284,7 +284,7 @@ export function App() {
       <footer className="mt-10 border-t border-slate-200 bg-white py-8 text-center text-xs text-slate-500">
         <div className="mx-auto max-w-7xl space-y-2 px-4">
           <p className="font-semibold text-slate-700">
-            세종시 생활권 · 법정동 · 마을이름 아틀라스 (`sejong.nalm.info`)
+            세종시 생활권 · 법정동 · 마을이름 아틀라스 (Sejong Interactive Atlas)
           </p>
           <p>
             원문 기반:{' '}

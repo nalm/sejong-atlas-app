@@ -298,19 +298,6 @@ export function App() {
             </a>{' '}
             · 지명 유래 출처: 세종특별자치시청(sejong.go.kr) · 인구/행정 통계: 행정안전부 주민등록통계(2026)
           </p>
-          <div className="flex flex-wrap justify-center gap-3 pt-2 text-[11px]">
-            <a href="https://usa.nalm.info" target="_blank" rel="noreferrer" className="hover:text-indigo-600">
-              🇺🇸 미국 아틀라스 (usa.nalm.info)
-            </a>
-            <span>·</span>
-            <a href="https://japan.nalm.info" target="_blank" rel="noreferrer" className="hover:text-indigo-600">
-              🇯🇵 일본 아틀라스 (japan.nalm.info)
-            </a>
-            <span>·</span>
-            <a href="https://china.nalm.info" target="_blank" rel="noreferrer" className="hover:text-indigo-600">
-              🇨🇳 중국 아틀라스 (china.nalm.info)
-            </a>
-          </div>
         </div>
       </footer>
 
